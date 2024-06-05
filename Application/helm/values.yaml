@@ -1,4 +1,4 @@
 containers:
   containerPort: 8080
-  image: 'quay.io/(quay-userName)/(imageName)'
+  image: 'quay.io/navepeled30/test_image'
   tag: 'chart_v1'
