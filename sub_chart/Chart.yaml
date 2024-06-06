@@ -9,7 +9,7 @@ dependencies:
     alias: deploy1
   - name: navepeled30
     repository: oci://ghcr.io/ntnp30/helm
-    version: 1.0.1
+    version: "1.0.0"
     alias: deploy2
 version: 1.0.0
 appVersion: "1.0.0"
