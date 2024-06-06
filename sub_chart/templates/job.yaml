@@ -21,7 +21,7 @@ spec:
         - name: TEST
           value: "{{ .Values.test }}"
         - name: SERVICE
-          value: "deploy-service"
+          value: "deploy1-service"
         - name: PORT
-          value: "{{ .Values.deploy.service.servicePort }}"
+          value: "{{ .Values.deploy1.service.servicePort }}"
   backoffLimit: 1
