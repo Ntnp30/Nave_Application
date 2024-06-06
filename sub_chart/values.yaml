@@ -14,7 +14,7 @@ deploy2:
 
   containers:
     containerPort: 8080
-    image: 'quay.io/navepeled30/test_image
+    image: 'quay.io/navepeled30/test_image'
     tag: 'chart_v1'
 
   service:
