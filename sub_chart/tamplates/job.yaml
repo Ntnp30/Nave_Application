@@ -22,6 +22,4 @@
            value: "deploy-service"
          - name: PORT
            value: "{{ .Values.deploy.service.servicePort }}"
-         - name: TEST
-           value: "{{ .Values.test }}"
    backoffLimit: 1
