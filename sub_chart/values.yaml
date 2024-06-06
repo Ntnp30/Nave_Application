@@ -3,6 +3,11 @@ test: null
 deploy1: 
   ReplicaNumber: 1
 
+  argocd:
+    syncwave:
+      deployment: 5
+      configmap: 1
+
   containers:
       containerPort: 8080
       image: 'quay.io/navepeled30/test_image'
@@ -16,6 +21,11 @@ deploy1:
 deploy2: 
   ReplicaNumber: 1
 
+  argocd:
+    syncwave:
+      deployment: 5
+      configmap: 1
+      
   containers:
     containerPort: 8080
     image: 'quay.io/navepeled30/test_image'
@@ -25,8 +35,3 @@ deploy2:
     servicePort: 8080
 
   value: 10
-
-argocd:
-  syncwave:
-     deployment: 5
-     configmap: 1
