@@ -16,14 +16,12 @@ deploy1:
   service:
       servicePort: 8080
 
-  value: 5
-
 deploy2: 
   ReplicaNumber: 1
 
   argocd:
     syncwave:
-      deployment: 5
+      deployment: 10
       configmap: 1
       
   containers:
@@ -33,5 +31,3 @@ deploy2:
 
   service:
     servicePort: 8080
-
-  value: 10
