@@ -9,6 +9,8 @@ deploy1:
   service:
       servicePort: 8080
 
+  value: 5
+
 deploy2: 
   ReplicaNumber: 1
 
@@ -19,3 +21,5 @@ deploy2:
 
   service:
     servicePort: 8080
+
+  value: 10

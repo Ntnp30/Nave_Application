@@ -24,6 +24,10 @@ probes:
     successThreshold: 1
     failureThreshold: 3
 
+argocd:
+  syncwave:
+     deployment: 5
+
 volume:
   mount:
     path: /tmp/html
