@@ -5,12 +5,12 @@ type: application
 dependencies:
   - name: navepeled30
     repository: oci://ghcr.io/ntnp30/helm
-    version: "1.0.4"
+    version: "1.0.5"
     alias: deploy1
   - name: navepeled30
     repository: oci://ghcr.io/ntnp30/helm
-    version: "1.0.3"
+    version: "1.0.5"
     alias: deploy2
-version: 1.0.3
-appVersion: "1.0.3"
+version: 1.0.5
+appVersion: "1.0.5"
 
