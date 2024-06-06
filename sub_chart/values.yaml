@@ -23,3 +23,8 @@ deploy2:
     servicePort: 8080
 
   value: 10
+
+argocd:
+  syncwave:
+     deployment: 5
+     configmap: 1
